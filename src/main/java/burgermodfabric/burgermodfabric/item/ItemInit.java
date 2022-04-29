@@ -14,7 +14,7 @@ public class ItemInit {
     public static final Item CHICKEN_BURGER = registerItem("chicken_burger", new Item(new FabricItemSettings().group(ModItemGroup.BURGERMOD_TAB).food(ModFoodComponets.BURGER_TIER_3)));
 
     public static final Item SCRAMBLED_EGG = registerItem("scrambled_egg", new Item(new FabricItemSettings().group(ModItemGroup.BURGERMOD_TAB).food(ModFoodComponets.RAW_EGG_FOOD)));
-    public static final Item FRIED_SCRAMBLED_EGG = registerItem("fried_scrambled_egg", new Item(new FabricItemSettings().group(ModItemGroup.BURGERMOD_TAB).food()))
+    public static final Item FRIED_SCRAMBLED_EGG = registerItem("fried_scrambled_egg", new Item(new FabricItemSettings().group(ModItemGroup.BURGERMOD_TAB).food(ModFoodComponets.FRIED_EGG_FOOD)));
 
 
     private static Item registerItem(String name, Item item) {
