@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " B",
+    "*#",
+    " B"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:bread"
+    },
+    "#": {
+      "item": "minecraft:cooked_chicken"
+    },
+    "*": {
+      "item": "burgermod:cheese"
+    }
+  },
+  "result": {
+    "item": "burgermod:chicken_cheese_burger",
+    "count": 2
+  }
+}

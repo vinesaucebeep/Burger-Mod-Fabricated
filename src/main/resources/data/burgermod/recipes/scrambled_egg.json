@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "burgermod:eggs"
+    }
+  ],
+  "result": {
+    "item": "burgermod:scrambled_egg"
+  }
+}

@@ -6,7 +6,12 @@ import net.minecraft.item.Item;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
+
 public class ItemInit {
+
+
+
+
 
     public static final Item BEEF_BURGER = registerItem("beef_burger", new Item(new FabricItemSettings().group(ModItemGroup.BURGERMOD_TAB).food(ModFoodComponets.BURGER_TIER_1)));
     public static final Item PORK_BURGER = registerItem("pork_burger", new Item(new FabricItemSettings().group(ModItemGroup.BURGERMOD_TAB).food(ModFoodComponets.BURGER_TIER_1)));
