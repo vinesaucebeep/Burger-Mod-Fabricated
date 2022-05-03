@@ -1,6 +1,5 @@
 package burgermodfabric.burgermodfabric;
 
-import burgermodfabric.burgermodfabric.effect.ModEffects;
 import burgermodfabric.burgermodfabric.item.ItemInit;
 import net.fabricmc.api.ModInitializer;
 
