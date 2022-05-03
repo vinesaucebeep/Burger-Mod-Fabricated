@@ -10,6 +10,7 @@ import net.minecraft.util.registry.Registry;
 public class ModEffects {
 
     public static final StatusEffect RAW_SCRAMBLED_EGG_EFFECTS = StatusEffects.POISON;
+    public static final StatusEffect RAW_CHAMPIGNONS_EFFECTS = StatusEffects.HUNGER;
 
 
 }

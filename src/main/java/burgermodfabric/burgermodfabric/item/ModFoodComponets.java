@@ -17,4 +17,12 @@ public class ModFoodComponets {
     public static final FoodComponent RAW_EGG_FOOD = new FoodComponent.Builder().hunger(1).saturationModifier(0.1f).statusEffect(new StatusEffectInstance(ModEffects.RAW_SCRAMBLED_EGG_EFFECTS, 200, 0), 1.0f).build();
     public static final FoodComponent FRIED_EGG_FOOD = new FoodComponent.Builder().hunger(2).meat().saturationModifier(0.6f).build();
 
+    public static final FoodComponent RAW_CHAMPIGNONS_FOOD = new FoodComponent.Builder().hunger(1).saturationModifier(0.1f).statusEffect(new StatusEffectInstance(ModEffects.RAW_CHAMPIGNONS_EFFECTS, 600, 1), 1.0f).build();
+    public static final FoodComponent INGREDIENT_FOOD = new FoodComponent.Builder().hunger(2).saturationModifier(0.6f).build();
+
+    public static final FoodComponent FRIES_FOOD = new FoodComponent.Builder().hunger(8).saturationModifier(0.9f).build();
+    public static final FoodComponent BERRY_TART_FOOD = new FoodComponent.Builder().hunger(7).saturationModifier(0.5f).build();
+    public static final FoodComponent HOTDOG_FOOD = new FoodComponent.Builder().hunger(6).saturationModifier(0.7f).meat().build();
+    public static final FoodComponent NUGGET_FOOD = new FoodComponent.Builder().hunger(1).saturationModifier(0.6f).meat().build();
+
 }

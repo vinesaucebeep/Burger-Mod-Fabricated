@@ -9,7 +9,7 @@ import org.apache.logging.log4j.Logger;
 
 public class BurgerModFabric implements ModInitializer {
 
-    public static final String MOD_ID = "burgermodfabric";
+    public static final String MOD_ID = "burgermod";
     public static final Logger LOGGER = LogManager.getLogger(MOD_ID);
 
     @Override

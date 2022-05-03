@@ -35,6 +35,18 @@ public class ItemInit {
     public static final Item SCRAMBLED_EGG = registerItem("scrambled_egg", new Item(new FabricItemSettings().group(ModItemGroup.BURGERMOD_TAB).food(ModFoodComponets.RAW_EGG_FOOD)));
     public static final Item FRIED_SCRAMBLED_EGG = registerItem("fried_scrambled_egg", new Item(new FabricItemSettings().group(ModItemGroup.BURGERMOD_TAB).food(ModFoodComponets.FRIED_EGG_FOOD)));
 
+    public static final Item RAW_CHAMPIGNONS = registerItem("raw_champignons", new Item(new FabricItemSettings().group(ModItemGroup.BURGERMOD_TAB).food(ModFoodComponets.RAW_CHAMPIGNONS_FOOD)));
+    public static final Item COOKED_CHAMPIGNONS = registerItem("cooked_champignons", new Item(new FabricItemSettings().group(ModItemGroup.BURGERMOD_TAB).food(ModFoodComponets.INGREDIENT_FOOD)));
+
+    public static final Item CHEESE = registerItem("cheese", new Item(new FabricItemSettings().group(ModItemGroup.BURGERMOD_TAB).food(ModFoodComponets.INGREDIENT_FOOD)));
+    public static final Item COOKED_CHICKEN_NUGGET = registerItem("cooked_chicken_nugget", new Item(new FabricItemSettings().group(ModItemGroup.BURGERMOD_TAB).food(ModFoodComponets.NUGGET_FOOD)));
+    public static final Item FRIES = registerItem("fries", new Item(new FabricItemSettings().group(ModItemGroup.BURGERMOD_TAB).food(ModFoodComponets.FRIES_FOOD)));
+    public static final Item HOTDOG = registerItem("hotdog", new Item(new FabricItemSettings().group(ModItemGroup.BURGERMOD_TAB).food(ModFoodComponets.HOTDOG_FOOD)));
+    public static final Item SWEET_BERRY_TART = registerItem("sweet_berry_tart", new Item(new FabricItemSettings().group(ModItemGroup.BURGERMOD_TAB).food(ModFoodComponets.BERRY_TART_FOOD)));
+
+
+
+
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registry.ITEM, new Identifier(BurgerModFabric.MOD_ID, name), item);
